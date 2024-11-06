@@ -1,0 +1,35 @@
+.header{
+  padding: 24px 42px;
+font-family: sans-serif;
+color: var(--Carbon-Fiber);
+line-height: 1.5;
+}
+.header__container{
+display: flex;
+justify-content: space-between;
+
+
+}
+.header__logo{
+font-size: 20px;
+font-weight: 600;
+
+
+}
+.menu__list{
+display: flex;
+justify-content: space-between;
+gap: 24px;
+
+}
+.menu__link{
+font-size: 17px;
+font-weight: 400;
+color: inherit;
+
+}
+
+.menu__link:hover{
+border-bottom: 1px solid var(--Carbon-Fiber)
+
+}
